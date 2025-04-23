@@ -61,13 +61,13 @@ $ ls /glade/p/cesmdata/inputdata/cesm2_init/b.e20.B1850.f19_g17.release_cesm2_1_
 {: .language-bash}
 
 ~~~
-0101-01-01  0161-01-01  0301-01-01
+0301-01-01
 ~~~
 {: .output}
 
 The `RUN_REFDATE` tells us which of these we are using (`0301-01-01`)
 ~~~
-$ ls /glade/p/cesmdata/cseg/inputdata/cesm2_init/b.e20.B1850.f19_g17.release_cesm2_1_0.020/0301-01-01/
+$ ls /glade/p/cesmdata/inputdata/cesm2_init/b.e20.B1850.f19_g17.release_cesm2_1_0.020/0301-01-01/
 ~~~
 {: .language-bash}
 
@@ -92,14 +92,14 @@ So what does `RUN_STARTDATE` do?
 Even though the restarts we start from begin on 0003-01-01, we can tell the model to begin our experiment with whatever we want the startdate to be.  This is because our simulation does not need to match any specific, real date. You can see in my experiment that the `RUN_STARTDATE` is set to `0001-01-01` and the output begins at that date:
 
 ~~~
-$ cd /glade/scratch/cstan/archive/b.day1.0/atm/hist
+$ cd /glade/derecho/scratch/cstan/archive/b.day1.0/ocn/hist
 $ ls -lt
 ~~~
 {: .language-bash}
 
 *Important Note: You can specify a new startdate for your run if the RUN_TYPE=hybrid.  You cannot do this if your RUN_TYPE=branch.*
 
-
+<!--
 #### Initial Conditions in our Added Heating Experiments (Assignment #5)
 
 In the previous example, all this initial condition information was set for us by default as part of the compset definition.  We did not have to set any of this ourselves.
@@ -167,5 +167,5 @@ rpointer.ocn.restart  b.day1.0.cism.r.0005-01-01-00000.nc  b.day1.0.pop.ro.0005-
 rpointer.ocn.tavg.5   b.day1.0.clm2.h0.0004-12.nc          b.day1.0.ww3.r.0005-01-01-00000
 ~~~
 {: .output}
-
+-->
 Now that we know better how initializing the model works, we will learn about initialized prediction experiments.
