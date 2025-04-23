@@ -16,7 +16,7 @@ The experiment will be initialized on Jan 7, 2019 and run for 45 days.
 
 #### Which version of the model?
 
-We will use CESM2.1.  This is a little different than the one we have been using (CESM2.1.1).  It is located in `/glade/u/home/ssfcst/cesm2_1`
+We will use CESM2.1.  This is a little different than the one we have been using (CESM2.1.5).  It is located in `/glade/u/home/ssfcst/cesm2_1`
 
 #### Which Resolution?
 
@@ -35,11 +35,11 @@ To meet the output requirements of the SubX protocol, we will want to set the na
 
 #### Initial Conditions
 
-It is not easy or advisable to make your own initial conditions for each component of the model.  If you want initial conditions, you need to get them from someone at NCAR.  The [Earth System Prediction Working Group](https://www.cesm.ucar.edu/working_groups/earth-system-prediction/) is the best source.
+It is not easy or advisable to make your own initial conditions for each component of the model.  If you want initial conditions, you need to get them from someone at NCAR.  The [Earth System Prediction Working Group](https://www.cesm.ucar.edu/working-groups/earth-system) is the best source.
 
 The experiment will be a hybrid run (`RUN_TYPE=hybrid`) in which the initial conditions are staged by the user (`GET_REFCASE=FALSE`).  They are located in:
 
-`/glade/scratch/cstan/fcst/rest/2019-01-07/`
+`/glade/derecho/scratch/cstan/fcst/rest/2019-01-07/`
 
 ~~~
 $ ls /glade/scratch/cstan/fcst/rest/2019-01-07/
