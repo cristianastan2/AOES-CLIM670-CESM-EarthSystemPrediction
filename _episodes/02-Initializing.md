@@ -51,7 +51,7 @@ Results in group run_begin_stop_restart
 `GET_REFCASE=TRUE` means that the code will get the initial condition/restart files for you from the `RUN_REFDIR`. If it is FASLE, we have to "stage" (meaning copy) the initial condition/restart files in the case run directory ourselves. As an example, we did this in Assignment #4.
 
 `RUN_REFDIR` is set to the default value of `cesm2_init`. This is a preset directory of initial condition files for starting CESM2 simulations. The full path is:
-`/glade/p/cesmdata/cseg/inputdata/cesm2_init/`
+`/glade/p/cesmdata/inputdata/cesm2_init/`
 
 `RUN_REFCASE` tells it which files in `RUN_REFDIR` to use.  Let's take a look:
 
