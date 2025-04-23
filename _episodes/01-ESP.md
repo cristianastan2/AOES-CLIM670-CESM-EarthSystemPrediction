@@ -16,7 +16,7 @@ These are not necessarily real conditions, they are typically idealized and do n
 * You ran a B1850 case and looked at the seasonal means and equatorial precipitation (Assignment #3)
 * You ran an sensitivity experiment with the DWG SSTs and looked at how the mean precip compared with a control simulation (Assignment #4)
 * You ran a ocean model simulations where you changed different things and looked at how the mean changed under the different experiments
-* You ran the added heating experiments and compared the mean with and without added heating (Assignment #5)
+<!--- * You ran the added heating experiments and compared the mean with and without added heating (Assignment #5)--->
 
 #### Projection: what the model thinks the climate will look like in the future under different scenarios
 
