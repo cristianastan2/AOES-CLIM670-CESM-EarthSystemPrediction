@@ -56,7 +56,7 @@ Results in group run_begin_stop_restart
 `RUN_REFCASE` tells it which files in `RUN_REFDIR` to use.  Let's take a look:
 
 ~~~
-$ ls /glade/p/cesmdata/cseg/inputdata/cesm2_init/b.e20.B1850.f19_g17.release_cesm2_1_0.020*
+$ ls /glade/p/cesmdata/inputdata/cesm2_init/b.e20.B1850.f19_g17.release_cesm2_1_0.020*
 ~~~
 {: .language-bash}
 
