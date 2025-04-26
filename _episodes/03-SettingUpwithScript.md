@@ -42,7 +42,7 @@ The experiment will be a hybrid run (`RUN_TYPE=hybrid`) in which the initial con
 `/glade/derecho/scratch/cstan/fcst/rest/2019-01-07/`
 
 ~~~
-$ ls /glade/scratch/cstan/fcst/rest/2019-01-07/
+$ ls /glade/derecho/scratch/cstan/fcst/rest/2019-01-07/
 ~~~
 {: .language-bash}
 
@@ -118,11 +118,11 @@ Go to your scripts directory, create a file called `s2sfcsts.sh` and open it in 
 
 The `.sh` indicates that we will write a `bash` shell script.  A bash shell script is a collection of Unix commands combined with a set of syntax rules for assigning variables and making loops and conditionals.   
 
-*Note: The script we got from Dr. Swenson for the added heading experiments was a `c-shell` script.  It is also a collection of Unix commands, but it has a different set of syntax rules for assigning variables and making loops and conditionals.*
+<!-- *Note: The script we got from Dr. Swenson for the added heading experiments was a `c-shell` script.  It is also a collection of Unix commands, but it has a different set of syntax rules for assigning variables and making loops and conditionals.*
 
-Which to use is a matter of personal preference.  You will likely see bash shell (`.sh`) more often than c-shell (`.csh`), so I will show you how to write a bash shell script.
+Which to use is a matter of personal preference.  You will likely see bash shell (`.sh`) more often than c-shell (`.csh`), so I will show you how to write a bash shell script. -->
 
-We will write the script together.  A copy is located here on Cheyenne for reference: `~cstan/scripts/s2sfcsts.sh`
+We will write the script together.  A copy is located here on Derecho for reference: `~cstan/scripts/s2sfcsts.sh`
 
 Once your script is ready, you can make is executable.
 
@@ -139,6 +139,6 @@ $ ./s2sfcsts.sh
 {: .language-bash}
 
 
-It will take a few minutes to run since it has to do everything so setup  and build the model.  If it fails to build, you will get an error.
+It will take a few minutes to run since it has to do everything to setup and build the model.  If it fails to build, you will get an error.
 
 Want to learn more about unix commands and shell scripting?  See the [Software carpentry tutorial](http://swcarpentry.github.io/shell-novice/)
